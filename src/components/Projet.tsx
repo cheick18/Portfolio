@@ -1,5 +1,6 @@
 
  import projetProps from './Realisation/Projet.interface';
+ 
 export default function Projet({name,picture,techno}:projetProps) {
     return (
       <div className="max-w-sm rounded overflow-hidden shadow-lg sm:hover:-translate-y-2">
