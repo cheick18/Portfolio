@@ -11,6 +11,7 @@ interface Techno {
   url: string;
 }
 
+
 interface Projet {
   name: string;
   picture: string;
@@ -24,7 +25,7 @@ export default function Realisations() {
   const projetNames = [
     {
       name: "Wague Portfolio",
-      picture: '/src/assets/projets/porfolioHome.jpg',
+      picture: '../assets/projets/porfolioHome.jpg',
       techno: [
         { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
         { name: "TypeScript", url: "https://expressjs.com/en/starter/installing.html" },
@@ -33,7 +34,7 @@ export default function Realisations() {
     },
     {
       name: "Faminda Site Web",
-      picture: '../src/assets/projets/famindaHeader2.jpg',
+      picture: '../assets/projets/famindaHeader2.jpg',
       techno: [
         { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
         { name: "Express", url: "https://expressjs.com/en/starter/installing.html" },
@@ -42,7 +43,7 @@ export default function Realisations() {
     },
     {
       name: "ExpenseTracker App",
-      picture: '../src/assets/projets/expense1.jpg',
+      picture: '../assets/projets/expense1.jpg',
       techno: [
         { name: "React Native", url: "https://reactnative.dev/docs/getting-started" },
         { name: "Express", url: "https://expressjs.com/en/starter/installing.html" },
@@ -51,7 +52,7 @@ export default function Realisations() {
     },
     {
       name: "gestionInterne App",
-      picture: "../src/assets/projets/GestionHome.jpg",
+      picture: "../assets/projets/GestionHome.jpg",
       techno: [
         { name: "PHP", url: "https://www.php.net/manual/en/index.php" },
         { name: "Laravel", url: "https://laravel.com/docs" },
@@ -60,7 +61,7 @@ export default function Realisations() {
     },
     {
       name: "MedinaBus App",
-      picture: '../src/assets/projets/me2.jpg',
+      picture: '../assets/projets/me2.jpg',
       techno: [
         { name: "Java", url: "https://docs.oracle.com/en/java/" },
         { name: "SWING", url: "https://docs.oracle.com/javase/tutorial/uiswing/" },
@@ -69,7 +70,7 @@ export default function Realisations() {
     },
     {
       name: "Consultor Site Web",
-      picture: '../src/assets/projets/consultorHome.jpg',
+      picture: '../assets/projets/consultorHome.jpg',
       techno: [
         { name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" },
         { name: "JQuery", url: "https://api.jquery.com/" },
