@@ -1,5 +1,4 @@
 
-import logomenu2 from '../../assets/logomenu2.png'
 import footer from '../../assets/footer.jpg'
 export default function Footer() {
   return (

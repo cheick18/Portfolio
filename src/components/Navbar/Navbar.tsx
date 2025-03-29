@@ -5,6 +5,7 @@ import teeslogo from '../../assets/teeslogo.png'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { useLocation } from 'react-router-dom';
+import { NavigationProps } from './Navbar.interface'
 
 /*const navigation = [
   { name: 'Home', href: '/', current: true },

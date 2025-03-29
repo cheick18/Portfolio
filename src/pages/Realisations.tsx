@@ -60,7 +60,7 @@ export default function Realisations() {
     },
     {
       name: "MedinaBus App",
-      picture: 'src/assets/projets/medinaHome.jpg',
+      picture: 'src/assets/projets/me2.jpg',
       techno: [
         { name: "Java", url: "https://docs.oracle.com/en/java/" },
         { name: "SWING", url: "https://docs.oracle.com/javase/tutorial/uiswing/" },
@@ -119,7 +119,7 @@ export default function Realisations() {
        <div className="listproject flex flex-col sm:flex-row   pt-[48px] gap-4 flex-1 md:flex-wrap">
 
          {
-           projetNames.map((projetdetails, index) => (
+           projets.map((projetdetails, index) => (
              <Projet name={projetdetails.name} picture={projetdetails.picture} techno={projetdetails.techno} key={index} />
 
            ))
