@@ -4,17 +4,16 @@ const compétences = [
       compétences: [
         { icon: "fab fa-html5", name: "HTML" },
         { icon: "fab fa-css3", name: "CSS" },
-        { icon: "fab fa-js-square", name: "JavaScript" },
+        { icon: "fab fa-js-square", name: "JavaScript, JQuery" },
         { icon: "fab fa-react", name: "React" },
-        { icon: "fab fa-bootstrap", name: "Bootstrap" },
-        { icon: "fab fa-tailwindcss", name: "Tailwind CSS" }
+        { icon: "fab fa-bootstrap", name: "Bootstrap, Tailwind CSS" },
+        { icon: "fab fa-wordpress", name: "Wordpress" }
       ]
     },
     {
       titre: {icon:"fa-server",name:"Développement Backend"},
       compétences: [
-        { icon: "fab fa-node", name: "Node.js" },
-        { icon: "fab fa-node", name: "Express" },
+        { icon: "fab fa-node", name: "Node.js, Express" },
         { icon: "fab fa-php", name: "PHP" },
         { icon: "fab fa-laravel", name: "Laravel" },
         { icon: "fab fa-java", name: "Java" },
@@ -28,8 +27,8 @@ const compétences = [
     titre: {icon:"fa-cloud", name: "Cloud & DevOps"},
       compétences: [
         { icon: "fab fa-docker", name: "Docker" },
-        { icon: "fab fa-azure", name: "Azure" },
-        { icon: "fab fa-google", name: "GCP" }
+        { icon: "fa-solid fa-cloud", name: "Azure" },
+       
       ]
     },
     {

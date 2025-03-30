@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom";
 
+
 export default function Hero() {
+  const telechargerCV = () => {
+   
+    const link = document.createElement('a');
+    link.href= '/Wague_CV_FullStack_Developer.pdf';  
+    link.download= 'Wague_CV_FullStack_Developer.pdf'; 
+    link.click();
+  };
   return (
     <header className="container-fluid" >
       <div className="grid md:grid-cols-2 sm:grid-cols-1 pt-8">
@@ -12,11 +20,11 @@ export default function Hero() {
           <div className="mt-10 grid grid-cols-3 animate__animated animate__bounceIn animate__delay-1s ">
             <div className="flex items-center gap-3 pl-3 col-span-3 sm:col-span-2">
 
-              <button className=" bg-[#37538C] border border-white hover:bg-white text-white  hover:text-gray-700 font-bold py-2  px-4 rounded-xl inline-flex items-center">
+              <button onClick={telechargerCV} className=" bg-[#37538C] border border-white hover:bg-white text-white  hover:text-gray-700 font-bold py-2  px-4 rounded-xl inline-flex items-center">
                 <svg className=" w-4 h-4 mr-2 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" fill="currentColor" /></svg>
-                <span className="">Download CV</span>
+                Download
               </button>
-              <Link to='https://www.linkedin.com/in/cheick-wague-622148212/' target="_blank">
+              <Link to='https://wa.me/+212771676213' target="_blank">
                <button className="flex items-center justify-center border bg-[#37538C] hover:bg-white text-white hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 rounded-full p-2">
                 <svg fill="currentColor" className="w-4 h-4 " version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 308 308" >
@@ -42,17 +50,20 @@ export default function Hero() {
                 </svg>
               </button>
               </Link>
+              <Link to='https://www.linkedin.com/in/cheick-wague-622148212/' target="_blank">
               <button className="flex items-center justify-center border bg-[#37538C] hover:bg-white text-white hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 rounded-full p-2">
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M8 16V11M12 16V14M12 11V14M16 16V14C16 12.5 15.5 11 14 11C12.5 11 12 12.5 12 14M7.99 8H8M6 20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
-
+              </Link>
+              <Link to='https://github.com/cheick18' target="_blank">
               <button className="flex items-center justify-center border bg-[#37538C]  hover:bg-white  text-white hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 rounded-full p-2">
                 <svg className="w-4 h-4 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 0C5.373 0 0 5.373 0 12c0 5.298 3.438 9.8 8.205 11.4.6.111.82-.26.82-.577v-2.17c-3.338.727-4.034-1.604-4.034-1.604-.546-1.38-1.33-1.751-1.33-1.751-1.086-.743.082-.73.082-.73 1.204.085 1.83 1.241 1.83 1.241 1.07 1.834 2.809 1.303 3.493.997.107-.775.418-1.303.761-1.603-2.666-.303-5.466-1.333-5.466-5.923 0-1.307.47-2.374 1.246-3.22-.126-.303-.543-1.516.116-3.161 0 0 1.012-.323 3.318 1.231 1.023-.284 2.11-.426 3.18-.43 1.068.004 2.157.146 3.18.43 2.303-1.554 3.318-1.231 3.318-1.231.659 1.645.242 2.858.116 3.161.776.846 1.246 1.913 1.246 3.22 0 4.597-2.805 5.62-5.474 5.917.431.371.825 1.102.825 2.222v3.29c0 .319.218.694.825.577C20.562 21.8 24 17.298 24 12c0-6.627-5.373-12-12-12z" />
                 </svg>
               </button>
+              </Link>
 
 
 

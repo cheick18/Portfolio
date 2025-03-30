@@ -23,7 +23,7 @@ export default function About() {
 
         <div className="description grid grid-cols-2 items-center  pt-6 sm:pt-0">
           <div className=" description-text col-span-2 order-2 sm:col-span-1   sm:order-1 ">
-            <p className=" mt-8 text-md font-light text-pretty sm:text-xl/8 text-gray-500">Ingénieur en génie informatique, passionné par les systèmes informatiques, avec une solide expérience en programmation, développement de logiciels et gestion des systèmes. Responsable et organisé, je suis déterminé à proposer des solutions innovantes et efficaces en informatique.</p>
+            <p className=" mt-8 text-md font-light text-pretty text-center sm:text-start sm:text-xl/8 text-gray-500">Ingénieur en génie informatique, passionné par les systèmes informatiques, avec une solide expérience en programmation, développement de logiciels et gestion des systèmes. Responsable et organisé, je suis déterminé à proposer des solutions innovantes et efficaces en informatique.</p>
           </div>
           <div className="description-text bg-slate-50 order-1  col-span-2 sm:col-span-1  sm:order-2 p-4">
             <img src={autre_contact} className="rounded-sm  " />
@@ -55,7 +55,7 @@ export default function About() {
      
       <Space />
         <div className="container-fluid">
-        <h4 className="text-2xl text-center  sm:text-3xl sm:text-start ">Mes expériecnes profetionelles</h4>
+        <h4 className="text-2xl text-center  sm:text-3xl sm:text-start ">Mes expériecnes profetionnelles</h4>
         <div className="experienceitem pt-8">
           {
                experiences.map((experience,index)=>(

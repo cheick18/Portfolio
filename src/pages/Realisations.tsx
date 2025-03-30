@@ -37,21 +37,32 @@ export default function Realisations() {
       picture: '/assets/projets/famindaHeader2.jpg',
       techno: [
         { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
+        { name: "Node.js", url: "https://nodejs.org/docs/latest/api/" },
         { name: "Express", url: "https://expressjs.com/en/starter/installing.html" },
+    
         { name: "Material UI", url: "https://mui.com/getting-started/installation/" }
       ]
     },
     {
-      name: "ExpenseTracker App",
+      name: "ExpenseTracker",
       picture: '/assets/projets/expense1.jpg',
       techno: [
         { name: "React Native", url: "https://reactnative.dev/docs/getting-started" },
+        { name: "Node.js", url: "https://nodejs.org/docs/latest/api/" },
         { name: "Express", url: "https://expressjs.com/en/starter/installing.html" },
         { name: "Firebase", url: "https://firebase.google.com/docs" }
       ]
     },
     {
-      name: "gestionInterne App",
+      name: "FoodArea",
+      picture: '/assets/projets/food.jpg',
+      techno: [
+        { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
+        { name: "Material UI", url: "https://mui.com/getting-started/installation/" }
+      ]
+    },
+    {
+      name: "GestionInterne",
       picture: "/assets/projets/GestionHome.jpg",
       techno: [
         { name: "PHP", url: "https://www.php.net/manual/en/index.php" },
@@ -60,12 +71,13 @@ export default function Realisations() {
       ]
     },
     {
-      name: "MedinaBus App",
+      name: "Medina Bus",
       picture: '/assets/projets/me2.jpg',
       techno: [
         { name: "Java", url: "https://docs.oracle.com/en/java/" },
         { name: "SWING", url: "https://docs.oracle.com/javase/tutorial/uiswing/" },
-        { name: "SQL", url: "https://www.w3schools.com/sql/" }
+        { name: "JDBC", url: "https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/" },
+       
       ]
     },
     {
@@ -76,7 +88,16 @@ export default function Realisations() {
         { name: "JQuery", url: "https://api.jquery.com/" },
         { name: "Bootstrap", url: "https://getbootstrap.com/docs/5.3/getting-started/introduction/" }
       ]
-    }
+    },
+    {
+      name: "cabMedical",
+      picture: '/assets/projets/cabinet-medical.jpg',
+      techno: [
+        { name: "Visual Basic .Net", url: "https://learn.microsoft.com/fr-fr/dotnet/visual-basic/" },{name:"MySQL",url:"https://dev.mysql.com/doc/"},
+      
+       
+      ]
+    },
   ];
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -92,7 +113,7 @@ export default function Realisations() {
       <Navbar />
       <Space />
       <div className="container-fluid ">
-        <h1 className=" text-4xl  font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl font-poppins">Réalisations</h1>
+        <h1 className=" text-4xl text-center sm:text-start font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl font-poppins">Réalisations</h1>
 
  {/*
        

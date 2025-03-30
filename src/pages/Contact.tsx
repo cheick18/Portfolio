@@ -29,10 +29,10 @@ export default function Contact() {
             </div>
           </div>
           <div className="social-link pt-[28px]">
-          <p className="w-auto text-md font-light text-center sm:text-start text-pretty sm:text-xl/8 text-gray-500">Vous pouvez aussi me joindre sur: </p>
+          <p className="w-auto text-md font-light text-center sm:text-start text-pretty sm:text-xl/8 text-gray-500">Vous pouvez aussi me joindre sur :</p>
             <div className="flex items-center gap-3 pt-[28px] justify-center sm:justify-start">
-            <span className="text-sm text-secondary"><Link to=''>GitHub</Link></span>
-            <span className="text-sm text-secondary"><Link to=''>LinkedIn</Link></span>
+            <span className="text-sm text-secondary"><Link to='https://github.com/cheick18'>GitHub</Link></span>
+            <span className="text-sm text-secondary"><Link to='https://www.linkedin.com/feed/'>LinkedIn</Link></span>
             <span className="text-sm text-secondary"><Link to='https://wa.me/+212771676213'>WhatsApp</Link></span>
             </div>
            
