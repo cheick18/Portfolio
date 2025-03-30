@@ -22,7 +22,7 @@ export default function Hero() {
 
               <button onClick={telechargerCV} className=" bg-[#37538C] border border-white hover:bg-white text-white  hover:text-gray-700 font-bold py-2  px-4 rounded-xl inline-flex items-center">
                 <svg className=" w-4 h-4 mr-2 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" fill="currentColor" /></svg>
-                Download
+                Download CV
               </button>
               <Link to='https://wa.me/+212771676213' target="_blank">
                <button className="flex items-center justify-center border bg-[#37538C] hover:bg-white text-white hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 rounded-full p-2">

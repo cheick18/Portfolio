@@ -36,7 +36,7 @@ const compétences = [
       compétences: [
         { icon: "fas fa-project-diagram", name: "UML (Diagrammes)" },
         { icon: "fas fa-database", name: "Modélisation BD" },
-        { icon: "fas fa-cogs", name: "Design Patterns" }
+       
       ]
     },
     {
