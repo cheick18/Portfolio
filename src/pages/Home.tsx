@@ -1,6 +1,7 @@
-import Hero from "../components/Hero";
+
 import Navbar from "../components/Navbar/Navbar";
 import back from '../assets/back.jpg';
+import Hero from "../components/Hero/Hero";
 
 export default function Home() {
   return (

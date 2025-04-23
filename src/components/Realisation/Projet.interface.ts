@@ -1,3 +1,4 @@
+import  ButtonProps from "./Buttons.interface"
 
 type technology={
     name:string
@@ -9,6 +10,8 @@ export default interface projetProps{
  
     name:string,
     picture:string,
-    techno:technology[]
+    techno:technology[],
+    description:string,
+    buttons:ButtonProps[]
 
 }
