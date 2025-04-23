@@ -1,5 +1,5 @@
 
-import autre_contact from '../assets/autre_contact.jpg'
+
 import Card from "../components/About/Card"
 import Space from "../components/Space"
 import Exprerience from "../components/About/Exprerience"
@@ -26,7 +26,7 @@ export default function About() {
             <p className=" mt-8 text-md font-light text-pretty text-center sm:text-start sm:text-xl/8 text-gray-500">Ingénieur en génie informatique, passionné par les systèmes informatiques, avec une solide expérience en programmation, développement de logiciels et gestion des systèmes. Responsable et organisé, je suis déterminé à proposer des solutions innovantes et efficaces en informatique.</p>
           </div>
           <div className="description-text bg-slate-50 order-1  col-span-2 sm:col-span-1  sm:order-2 p-4">
-            <img src={autre_contact} className="rounded-sm  " />
+            <img src='assets/autre_contact.jpg' className="rounded-sm  " />
           </div>
         </div>
       </div>

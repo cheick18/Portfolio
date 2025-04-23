@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom'
-import footer from '../../assets/footer.jpg'
+import footer from '/assets/footer.jpg'
 export default function Footer() {
   return (
    

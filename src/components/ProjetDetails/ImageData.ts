@@ -2,34 +2,49 @@ export const  projetImages=[
     {
         lien:'food-area',
         images:[
-            {
-                full: 'src/assets/foodArea/astuce.png',
-                alt: 'Forêt brumeuse'
-              },
-              {
-                full: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80',
-                alt: 'Montagne enneigée'
-              },
-              {
-                full: 'src/assets/foodArea/categorie.png',
-                alt: 'Plage au coucher du soleil'
-              },
-              {
-                full: 'src/assets/foodArea/choixconnexion.png',
-                alt: 'Forêt enneigée'
-              },
-              {
-                full: 'src/assets/foodArea/inscription.png',
-                alt: 'Forêt enneigée'
-              },
-              {
-                full: 'src/assets/foodArea/recettes.png',
-                alt: 'Forêt enneigée'
-              },
-              {
-                full:'src/assets/foodArea/contact.png',
-                alt:'Page de contact'
-              }
+          {
+            full:'assets/projets/foodArea/food.png',
+            alt:'Home'
+        },
+    
+    
+        {
+            full: 'assets/projets/foodArea/astuce.png',
+            alt: 'Home'
+          },
+          {
+            full: 'assets/projets/foodArea/description-image.png',
+            alt: 'Home'
+          },
+         
+          {
+            full: 'assets/projets/foodArea/categorie.png',
+            alt: 'Plage au coucher du soleil'
+          },
+          {
+            full: 'assets/projets/foodArea/choixconnexion.png',
+            alt: 'Forêt enneigée'
+          },
+        
+          {
+            full: 'assets/projets/foodArea/detailRecette.png',
+            alt: 'Forêt enneigée'
+          },
+        
+          {
+            full:'assets/projets/foodArea/inscription.png',
+            alt:'Inscriptions'
+          },
+          {
+            full:'assets/projets/foodArea/contact.png',
+            alt:'Page de contact'
+          },
+         
+          {
+            full:'assets/projets/foodArea/footer.png',
+            alt:'Footer'
+          }
+    
 
         ]
 
@@ -37,95 +52,159 @@ export const  projetImages=[
     {
         lien:'gestion-interne',
         images:[
-            {
-                full: 'public/assets/Capture_uts/adminDashboard.png',
-                alt: 'Connexion'
-              },
-            {
-                full: 'public/assets/projets/gestionInterne/adminDashboard.png',
-                alt: 'Dashboard admin'
-              },
-              {
-                full: 'public/assets/projets/gestionInterne/adminDashboard2.png',
-                alt: 'Dashboard admin'
-              },
-              {
-                full:"public/assets/projets/gestionInterne/historiqueInscription.png",
-                alt:"Dahboard admin"
-              },
-              {
-                full: 'public/assets/projets/gestionInterne/formulaireInscrition.png',
-                alt: "Formualire d'inscription"
-              },
-              {
-                full: 'public/assets/projets/gestionInterne/formPaiement.png',
-                alt: 'Formaulaire pour le paiement'
-              },
-              {
-                full:"public/assets/projets/gestionInterne/PaiementsUI.png",
-                alt:"Interface de payments"
-              },
-            
-              {
-                full: 'public/assets/projets/gestionInterne/listeIncription.png',
-                alt: 'Liste des inscriptions'
-              },
-              {
-                full:'public/assets/projets/gestionInterne/ListeCertification.png',
-                alt:'Liste des certifications'
-              },
-              {
-                full:'public/assets/projets/gestionInterne/ListeCertification.png',
-                alt:'Liste des certifications'
-              }
-            
-
+          {
+            full: 'assets/projets/Capture_uts/inscription.png',
+            alt: 'Inscription'
+          },
+        {
+            full: 'assets/projets/Capture_uts/adminDashboard.png',
+            alt: 'Dashboard admin'
+          },
+          {
+            full: 'assets/projets/Capture_uts/adminDashboard2.png',
+            alt: 'Dashboard admin'
+          },
+          {
+            full:"assets/projets/Capture_uts/historiqueInscription.png",
+            alt:"Dahboard admin"
+          },
+          {
+            full: 'assets/projets/Capture_uts/formulaireInscrition.png',
+            alt: "Formualire d'inscription"
+          },
+          {
+            full: 'assets/projets/Capture_uts/formPaiement.png',
+            alt: 'Formaulaire pour le paiement'
+          },
+          {
+            full:"assets/projets/Capture_uts/PaiementsUI.png",
+            alt:"Interface de payments"
+          },
+        
+          {
+            full: 'assets/projets/Capture_uts/listeIncription.png',
+            alt: 'Liste des inscriptions'
+          },
+          {
+            full:'assets/projets/Capture_uts/ListeCertification.png',
+            alt:'Liste des certifications'
+          },
+          {
+            full:'assets/projets/Capture_uts/ListeCertification.png',
+            alt:'Liste des certifications'
+          }
         ]
 
     },
     {
         lien:'expense-tracker',
         images:[
-            {
-                full: 'public/assets/projets/gestionInterne/adminDashboard.png',
-                alt: 'expense'
+            
+              {
+                full: 'assets/projets/captureexpense/dashboardExpenseCompte2.png',
+                alt: ''
               },
               {
-                full: 'public/assets/projets/captureexpense/dashboardExpenseCompte2.png',
-                alt: 'Montagne enneigée'
+                full: 'assets/projets/captureexpense/Screenshot_20240823-131454.png',
+                alt: ''
               },
               {
-                full: 'public/assets/projets/captureexpense/Screenshot_20240823-131454.png',
-                alt: 'Plage au coucher du soleil'
+                full: 'assets/projets/captureexpense/Screenshot_20240823-131814.png',
+                alt: ''
               },
               {
-                full: 'public/assets/projets/captureexpense/Screenshot_20240823-131814.png',
-                alt: 'Forêt enneigée'
+                full: 'assets/projets/captureexpense/Screenshot_20240823-132017.png',
+                alt: ''
               },
               {
-                full: 'public/assets/projets/captureexpense/Screenshot_20240823-132017.png',
-                alt: 'Forêt enneigée'
+                full: 'assets/projets/captureexpense/Screenshot_20240823-132017.png',
+                alt: ''
               },
               {
-                full: 'public/assets/projets/captureexpense/Screenshot_20240823-132017.png',
-                alt: 'Forêt enneigée'
+                full:'assets/projets/captureexpense/Screenshot_20240823-132145.png',
+                alt:''
               },
               {
-                full:'public/assets/projets/captureexpense/Screenshot_20240823-132145.png',
-                alt:'Page de contact'
+                full:'assets/projets/captureexpense/Screenshot_20240823-132223.png',
+                alt:''
               },
               {
-                full:'public/assets/projets/captureexpense/Screenshot_20240823-132223.png',
-                alt:'Page de contact'
+                full:'assets/projets/captureexpense/Screenshot_20240823-132238.png',
+                alt:''
               },
               {
-                full:'public/assets/projets/captureexpense/Screenshot_20240823-132238.png',
-                alt:'Page de contact'
+                full:'assets/projets/captureexpense/Screenshot_20240823-132603.png',
+                alt:''
               },
               {
-                full:'public/assets/projets/captureexpense/Screenshot_20240823-132603.png',
-                alt:'Page de contact'
+                full:'assets/projets/captureexpense/Screenshot_20240823-132649.png',
+                alt:''
               },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240828-030323.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240828-030336.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240828-030402.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240828-030459.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240902-165350.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240902-165413.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240902-165513.png',
+                alt:''
+              },
+              {
+              
+                full:'assets/projets/captureexpense/Screenshot_20240902-165542.png',
+                alt:''
+              },
+           
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240902-171429.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240923-094051.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240924-190220.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240924-190244.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240926-155937.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/Screenshot_20240926-155951.png',
+                alt:''
+              },
+              {
+                full:'assets/projets/captureexpense/triDepense.png',
+                alt:''
+              },
+            
+              
+          
             
         ]
 
@@ -133,34 +212,53 @@ export const  projetImages=[
     {
         lien:'medina-bus',
         images:[
+          {
+            full: 'assets/projets/medinaBus/login.png',
+            alt: ''
+          },
+          {
+            full: 'assets/projets/medinaHome.jpg',
+            alt: ''
+          },
             {
-                full: 'public/assets/medinaBus/ajouter_ligne.png',
-                alt: 'sss'
+                full: 'assets/projets/medinaBus/ajouter_ligne.png',
+                alt: ''
               },
               {
-                full: 'public/assets/medinaBus/ajouter_quartier.png',
-                alt: 'ddd'
+                full: 'assets/projets/medinaBus/ajouter_quartier.png',
+                alt: ''
               },
               {
-                full: 'public/assets/medinaBus/ajouter_station.png',
-                alt: 'Plage au coucher du soleil'
+                full: 'assets/projets/medinaBus/ajouter_station.png',
+                alt: ''
               },
               {
-                full: 'public/assets/medinaBus/gestion_abonnement.png',
-                alt: 'Forêt enneigée'
+                full: 'assets/projets/medinaBus/gestion_abonnement.png',
+                alt: ''
               },
               {
-                full: 'public/assets/medinaBus/gestion_password.png',
-                alt: 'Forêt enneigée'
+                full: 'assets/projets/medinaBus/gestion_password.png',
+                alt: ''
+              },
+             
+              {
+                full: 'assets/projets/medinaBus/la_gemande.png',
+                alt: ''
               },
               {
-                full: 'public/assets/medinaBus/la_demande.png',
-                alt: 'Forêt enneigée'
+                full: 'assets/projets/medinaBus/les _ignes.png',
+                alt: ''
               },
               {
-                full:'src/assets/foodArea/contact.png',
-                alt:'Page de contact'
-              }
+                full: 'assets/projets/medinaBus/les quartiers.png',
+                alt: ''
+              },
+              {
+                full: 'assets/projets/medinaBus/les_offres.png',
+                alt: ''
+              },
+            
+            
 
         ]
 

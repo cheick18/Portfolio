@@ -1,7 +1,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/16/solid'
-import logomenu2 from '../../assets/logomenu2.png'
-import teeslogo from '../../assets/teeslogo.png'
+import logomenu2 from '/assets/footer.jpg?url'
+import teeslogo from '/assets/teeslogo.png?url'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { useLocation } from 'react-router-dom';

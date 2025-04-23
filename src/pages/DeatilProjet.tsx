@@ -7,53 +7,55 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
 
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-thumbnail.css';
+import DetailsProps from '../components/ProjetDetails/Deatials.interface';
 
 
-export default function ExpenseDetail() {
+export default function ExpenseDetail({lien,images}:DetailsProps) {
+  /*
    const images=[
         {
-            full: 'public/assets/projets/gestionInterne/adminDashboard.png',
+            full: 'assets/projets/gestionInterne/adminDashboard.png',
             alt: 'expense'
           },
           {
-            full: 'public/assets/projets/captureexpense/dashboardExpenseCompte2.png',
+            full: 'assets/projets/captureexpense/dashboardExpenseCompte2.png',
             alt: 'Montagne enneigée'
           },
           {
-            full: 'public/assets/projets/captureexpense/Screenshot_20240823-131454.png',
+            full: 'assets/projets/captureexpense/Screenshot_20240823-131454.png',
             alt: 'Plage au coucher du soleil'
           },
           {
-            full: 'public/assets/projets/captureexpense/Screenshot_20240823-131814.png',
+            full: 'assets/projets/captureexpense/Screenshot_20240823-131814.png',
             alt: 'Forêt enneigée'
           },
           {
-            full: 'public/assets/projets/captureexpense/Screenshot_20240823-132017.png',
+            full: 'assets/projets/captureexpense/Screenshot_20240823-132017.png',
             alt: 'Forêt enneigée'
           },
           {
-            full: 'public/assets/projets/captureexpense/Screenshot_20240823-132017.png',
+            full: 'assets/projets/captureexpense/Screenshot_20240823-132017.png',
             alt: 'Forêt enneigée'
           },
           {
-            full:'public/assets/projets/captureexpense/Screenshot_20240823-132145.png',
+            full:'assets/projets/captureexpense/Screenshot_20240823-132145.png',
+            alt:''
+          },
+          {
+            full:'projets/captureexpense/Screenshot_20240823-132223.png',
             alt:'Page de contact'
           },
           {
-            full:'public/assets/projets/captureexpense/Screenshot_20240823-132223.png',
+            full:'projets/captureexpense/Screenshot_20240823-132238.png',
             alt:'Page de contact'
           },
           {
-            full:'public/assets/projets/captureexpense/Screenshot_20240823-132238.png',
-            alt:'Page de contact'
-          },
-          {
-            full:'public/assets/projets/captureexpense/Screenshot_20240823-132603.png',
-            alt:'Page de contact'
+            full:'assets/projets/captureexpense/Screenshot_20240823-132603.png',
+            alt:''
           },
         
     ]
-
+*/
   const galleryRef = useRef<LightGalleryType | null>(null);
 
   useEffect(() => {
