@@ -9,7 +9,6 @@ import Contact from './pages/Contact.tsx'
 import Realisations from './pages/Realisations.tsx'
 import Notfound from './pages/Notfound.tsx'
 import Dynamique from './pages/Dynamique.tsx'
-import { projetImages } from './components/ProjetDetails/ImageData.ts'
 import ExpenseDetail from './pages/ExpenseDetail.tsx'
 import FoodArea from './pages/FoodArea.tsx'
 

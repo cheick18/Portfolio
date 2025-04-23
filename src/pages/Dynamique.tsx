@@ -8,7 +8,6 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-thumbnail.css';
 
-import DetailsProps from '../components/ProjetDetails/Deatials.interface';
 
 export default function AutoCarousel( /*{ lien, images }: DetailsProps */) {
   const galleryRef = useRef<LightGalleryType | null>(null);
