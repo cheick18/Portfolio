@@ -3,10 +3,10 @@ export const projetNames = [
       name: "Recipe API",
       picture: '/assets/projets/api.jpg',
       techno: [
-        { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
-        { name: "LightGallery", url: "https://www.lightgalleryjs.com/" },
-        { name: "TypeScript", url: "https://expressjs.com/en/starter/installing.html" },
-        { name: "Tailwind CSS", url: "https://mui.com/getting-started/installation/" }
+        { name: "Java", url: "https://docs.oracle.com/en/java/" },
+        { name: "Spring Boot", url: "https://spring.io/projects/spring-boot" },
+        { name: "Jason Web Token", url: "https://jwt.io/" },
+       
       ],
       description:'Plateforme de partage de recettes avec gestion des utilisateurs et du contenu',
       buttons:[{type:'code',link:'https://github.com/cheick18/FoodArea---Api.git'}]
