@@ -11,6 +11,7 @@ import DetailsProps from '../components/ProjetDetails/Deatials.interface';
 
 
 export default function ExpenseDetail({lien,images}:DetailsProps) {
+  console.log(lien)
   /*
    const images=[
         {
