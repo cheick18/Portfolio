@@ -22,7 +22,7 @@ export const projetNames = [
         { name: "Tailwind CSS", url: "https://mui.com/getting-started/installation/" }
       ],
       description:'Portfolio pour ullustrer mes competances et mon parcours profetionel',
-      buttons:[{type:'code',link:'https://portfoliowague.netlify.app/'}]
+      buttons:[{type:'code',link:'https://github.com/cheick18/Portfolio.git'}]
    
     },
 
