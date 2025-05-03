@@ -1,3 +1,5 @@
+
+
 export const projetNames = [
     {
       name: "Recipe API",
@@ -21,7 +23,7 @@ export const projetNames = [
         { name: "TypeScript", url: "https://expressjs.com/en/starter/installing.html" },
         { name: "Tailwind CSS", url: "https://mui.com/getting-started/installation/" }
       ],
-      description:'Portfolio pour ullustrer mes competances et mon parcours profetionel',
+      description:'Portfolio pour illustrer mes compétences et mon parcours professionnel',
       buttons:[{type:'code',link:'https://github.com/cheick18/Portfolio.git'}]
    
     },
@@ -37,7 +39,7 @@ export const projetNames = [
     
         { name: "Material UI", url: "https://mui.com/getting-started/installation/" }
       ],
-         description:"Site web pour le buréau d'éutde Faminda Concept",
+         description:"Site web conçu pour le bureau d'étude Faminda Concept",
          buttons:[{type:'web',link:'https://www.famindaconcept.com/'}]
        
     },
@@ -50,8 +52,24 @@ export const projetNames = [
         { name: "Express", url: "https://expressjs.com/en/starter/installing.html" },
         { name: "Firebase", url: "https://firebase.google.com/docs" }
       ],
-         description:'Application mobile inteliigente permetant la gestion de dépenses',
+         description:'Application mobile intelligente dédiée à la gestion des dépenses',
          buttons:[{  type:'capture', link:'/expense-tracker'}]
+    },
+   
+    {
+      name: "GestionInterne",
+      picture: "/assets/projets/GestionHome.jpg",
+      techno: [
+        { name: "PHP", url: "https://www.php.net/manual/en/index.php" },
+        { name: "Laravel", url: "https://laravel.com/docs" },
+        { name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" },
+        { name: "Bootstrap", url: "https://getbootstrap.com/docs/5.3/getting-started/introduction/" }
+      ],
+         description:'Application web pour la gestion interne de la société UTS',
+         buttons:[{type:'capture',link:'/gestion-interne'},{type:'code',link:'https://github.com/cheick18/gestionInterne.git'},
+        
+
+         ]
     },
     {
       name: "FoodArea",
@@ -60,20 +78,9 @@ export const projetNames = [
         { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
         { name: "Material UI", url: "https://mui.com/getting-started/installation/" }
       ],
-         description:'Site web permetant',
+         description:"Site web vitrine permettant aux utilisateurs d'explorer une multitude de recettes",
          buttons:[{type:'capture',link:'/food-area'},{type:'code',link:'github'}]
       
-    },
-    {
-      name: "GestionInterne",
-      picture: "/assets/projets/GestionHome.jpg",
-      techno: [
-        { name: "PHP", url: "https://www.php.net/manual/en/index.php" },
-        { name: "Laravel", url: "https://laravel.com/docs" },
-        { name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" }
-      ],
-         description:'Application web permettant la gestion interne de Uts',
-         buttons:[{type:'capture',link:'/gestion-interne'},{type:'code',link:'https://github.com/cheick18/gestionInterne.git'}]
     },
     {
       name: "Medina Bus",
@@ -96,9 +103,10 @@ export const projetNames = [
         { name: "JQuery", url: "https://api.jquery.com/" },
         { name: "Bootstrap", url: "https://getbootstrap.com/docs/5.3/getting-started/introduction/" }
       ],
-         description:'Site web vitrine de consulting',
+         description:'Site web vitrine pour une activité de consulting',
          buttons:[{type:'web',link:'https://site-vitrine-h6fk.onrender.com/'}]
     },
+    /*
     {
       name: "MedicCab",
       picture: '/assets/projets/cabinet-medical.jpg',
@@ -111,4 +119,5 @@ export const projetNames = [
          buttons:[{type:'capture',link:'cabinet-medical'},{type:"code",link:"https://github.com/cheick18/CabinetMedicalApp.git"}]
        
     },
+    */
   ];

@@ -41,7 +41,6 @@ export default function Realisations() {
       <Space />
       <div className="container-fluid ">
         <h1 className=" text-4xl text-center sm:text-start font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl font-poppins">Réalisations</h1>
-
         {
           loading?( <div className="pt-[48px] sketonton grid grid-cols-1 sm:grid-cols-3">
             <div> <Skeleton /></div>
