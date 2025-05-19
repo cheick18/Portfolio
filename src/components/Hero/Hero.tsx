@@ -13,9 +13,9 @@ export default function Hero() {
     <header className="container-fluid" >
       <div className="grid md:grid-cols-2 sm:grid-cols-1 pt-8">
         <div>
-          <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl font-poppins animate__animated animate__bounceInLeft ">Salut, je suis Wague cheickne</h1>
+          <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl font-poppins animate__animated animate__bounceInLeft ">Salut, moi c'est Wague Cheickne</h1>
           <p className="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8 font-poppins animate__animated animate__bounceInUp">
-          Ingénieur logiciel avec une solide expérience tant en développement frontend qu'en backend.</p>
+          Ingénieur logiciel spécilaisé en <strong>React</strong>, <strong>Javascript</strong>, <strong>Node.js</strong>, <strong>Spring</strong> et <strong>interfaces modernes</strong>, je concois des applications performants, accessibles et sur-mesures.</p>
 
           <div className="mt-10 grid grid-cols-3 animate__animated animate__bounceIn animate__delay-1s ">
             <div className="flex items-center gap-3 pl-3 col-span-3 sm:col-span-2">

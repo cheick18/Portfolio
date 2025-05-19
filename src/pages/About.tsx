@@ -21,9 +21,15 @@ export default function About() {
       <div className="container-fluid ">
         <h1 className=" text-4xl text-center sm:text-start font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl font-poppins">Qui suis-je?</h1>
 
-        <div className="description grid grid-cols-2 items-center  pt-6 sm:pt-0">
+        <div className="description grid grid-cols-2 items-center  pt-6 sm:pt-0 gap-3">
           <div className=" description-text col-span-2 order-2 sm:col-span-1   sm:order-1 ">
-            <p className=" mt-8 text-md font-light text-pretty text-center sm:text-start sm:text-xl/8 text-gray-500">Ingénieur en génie informatique, passionné par les systèmes informatiques, avec une solide expérience en programmation, développement de logiciels et gestion des systèmes. Responsable et organisé, je suis déterminé à proposer des solutions innovantes et efficaces en informatique.</p>
+            <p className=" mt-8 text-md font-light text-pretty text-center sm:text-start sm:text-xl/8 text-gray-500">Je m'appelle Wague Cheickne, Ingénieur logiciel passionné basé au Maroc. Mon parcours a commencé par curiosité, et s’est rapidement transformé en vocation.<br></br>
+
+Je travaille principalement avec React, JavaScript, HTML/CSS, Node.js et Spring, tout en m'intéressant aux nouvelles technologies et à l'optimisation de l'expérience utilisateur.<br></br>
+
+J'aime résoudre des problèmes, construire des interfaces modernes, et collaborer avec des équipes dynamiques. Je suis curieux, rigoureux et toujours prêt à apprendre.
+
+<br></br><em>Mon objectif ? Créer des expériences web performantes, accessibles et visuellement impactantes.</em></p>
           </div>
           <div className="description-text bg-slate-50 order-1  col-span-2 sm:col-span-1  sm:order-2 p-4">
             <img src='assets/autre_contact.jpg' className="rounded-sm  " />
