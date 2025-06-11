@@ -2,6 +2,19 @@
 
 export const projetNames = [
     {
+      name: "Garden Waste Booking",
+      picture: '/assets/projets/select_skip.png',
+      techno: [
+        { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
+        { name: "Tailwind CSS", url: "https://mui.com/getting-started/installation/" },
+        { name: "Animate On Scroll", url: "https://michalsnik.github.io/aos/" },
+       
+      ],
+      description:'Site web de sélection de benne avec refonte UI/UX et design responsive',
+      buttons:[{type:'web',link:'https://38wk34-5173.csb.app/'},{type:'code',link:'https://github.com/cheick18/skip-selector-redesign.git'}]
+   
+    },
+    {
       name: "Recipe API",
       picture: '/assets/projets/api.jpg',
       techno: [
