@@ -11,7 +11,8 @@ export const projetNames = [
        
       ],
       description:'Site web de sélection de benne avec refonte UI/UX et design responsive',
-      buttons:[{type:'web',link:'https://38wk34-5173.csb.app/'},{type:'code',link:'https://github.com/cheick18/skip-selector-redesign.git'}]
+      buttons:[{type:'web',link:'https://38wk34-5173.csb.app/'},{type:'code',link:'https://github.com/cheick18/skip-selector-redesign.git'}],
+      category:'site web'
    
     },
     {
@@ -24,7 +25,8 @@ export const projetNames = [
        
       ],
       description:'Plateforme de partage de recettes avec gestion des utilisateurs et du contenu',
-      buttons:[{type:'code',link:'https://github.com/cheick18/FoodArea---Api.git'}]
+      buttons:[{type:'code',link:'https://github.com/cheick18/FoodArea---Api.git'}],
+      category:'api'
    
     },
     {
@@ -37,7 +39,8 @@ export const projetNames = [
         { name: "Tailwind CSS", url: "https://mui.com/getting-started/installation/" }
       ],
       description:'Portfolio pour illustrer mes compétences et mon parcours professionnel',
-      buttons:[{type:'code',link:'https://github.com/cheick18/Portfolio.git'}]
+      buttons:[{type:'code',link:'https://github.com/cheick18/Portfolio.git'}],
+      category:'site web'
    
     },
 
@@ -53,7 +56,8 @@ export const projetNames = [
         { name: "Material UI", url: "https://mui.com/getting-started/installation/" }
       ],
          description:"Site web conçu pour le bureau d'étude Faminda Concept",
-         buttons:[{type:'web',link:'https://www.famindaconcept.com/'}]
+         buttons:[{type:'web',link:'https://www.famindaconcept.com/'}],
+         category:'app web'
        
     },
     {
@@ -66,7 +70,8 @@ export const projetNames = [
         { name: "Firebase", url: "https://firebase.google.com/docs" }
       ],
          description:'Application mobile intelligente dédiée à la gestion des dépenses',
-         buttons:[{  type:'capture', link:'/expense-tracker'}]
+         buttons:[{  type:'capture', link:'/expense-tracker'}],
+         category:'mobile'
     },
    
     {
@@ -80,9 +85,11 @@ export const projetNames = [
       ],
          description:'Application web pour la gestion interne de la société UTS',
          buttons:[{type:'capture',link:'/gestion-interne'},{type:'code',link:'https://github.com/cheick18/gestionInterne.git'},
+       
         
 
-         ]
+         ],
+          category:'app web',
     },
     {
       name: "FoodArea",
@@ -92,8 +99,21 @@ export const projetNames = [
         { name: "Material UI", url: "https://mui.com/getting-started/installation/" }
       ],
          description:"Site web vitrine permettant aux utilisateurs d'explorer une multitude de recettes",
-         buttons:[{type:'capture',link:'/food-area'},{type:'code',link:'github'}]
+         buttons:[{type:'capture',link:'/food-area'},{type:'code',link:'github'}],
+          category:'site web',
       
+    },
+       {
+      name: "MedicCab",
+      picture: '/assets/projets/cabinet-medical.jpg',
+      techno: [
+        { name: "Visual Basic .Net", url: "https://learn.microsoft.com/fr-fr/dotnet/visual-basic/" },{name:"MySQL",url:"https://dev.mysql.com/doc/"},
+      
+       
+      ],
+         description:'Applcation destop de gestion complete de cabinet medical',
+         buttons:[{type:'capture',link:'/medic-cab'},{type:"code",link:"https://github.com/cheick18/CabinetMedicalApp.git"}],
+       category:'desktop'
     },
     {
       name: "Medina Bus",
@@ -105,7 +125,8 @@ export const projetNames = [
        
       ],
          description:'Application desktop permetant la gestion de transport',
-         buttons:[{type:'capture',link:'/medina-bus'},{type:'code',link:'https://github.com/cheick18/Medina_app.git'}]
+         buttons:[{type:'capture',link:'/medina-bus'},{type:'code',link:'https://github.com/cheick18/Medina_app.git'}],
+          category:'desktop',
        
     },
     {
@@ -117,20 +138,11 @@ export const projetNames = [
         { name: "Bootstrap", url: "https://getbootstrap.com/docs/5.3/getting-started/introduction/" }
       ],
          description:'Site web vitrine pour une activité de consulting',
-         buttons:[{type:'web',link:'https://site-vitrine-h6fk.onrender.com/'}]
+         buttons:[{type:'web',link:'https://site-vitrine-h6fk.onrender.com/'}],
+          category:'site web',
     },
-    /*
-    {
-      name: "MedicCab",
-      picture: '/assets/projets/cabinet-medical.jpg',
-      techno: [
-        { name: "Visual Basic .Net", url: "https://learn.microsoft.com/fr-fr/dotnet/visual-basic/" },{name:"MySQL",url:"https://dev.mysql.com/doc/"},
+    
+ 
       
-       
-      ],
-         description:'Applcation destop de gestion complete de cabinet medical',
-         buttons:[{type:'capture',link:'cabinet-medical'},{type:"code",link:"https://github.com/cheick18/CabinetMedicalApp.git"}]
-       
-    },
-    */
+    
   ];

@@ -263,5 +263,58 @@ export const  projetImages=[
         ]
 
     },
+      {
+        lien:'medic-cab',
+        images:[
+          {
+            full:'assets/projets/MedicCab/login_admin.png',
+            alt:'Admin'
+        },
+    
+    
+        {
+            full: 'assets/projets/MedicCab/modification_compte_medecin.png',
+            alt: 'Admin'
+          },
+          {
+            full: 'assets/projets/MedicCab/modification_comte_secretaire.png',
+            alt: 'Admin'
+          },
+            {
+            full:'assets/projets/MedicCab/identification_secre.png',
+            alt:'Secretary'
+        },
+
+     {
+            full:'assets/projets/MedicCab/section_secretaire.png',
+            alt:'Secretary'
+        },
+    
+        {
+            full: 'assets/projets/MedicCab/creer_rendez_vous.png',
+            alt: 'Secretary'
+          },
+          {
+            full: 'assets/projets/MedicCab/gestion_rendez.png',
+            alt: 'Secretary'
+          },
+            {
+            full: 'assets/projets/MedicCab/liste_patient.png',
+            alt: 'Secretary'
+          },
+          {
+            full: 'assets/projets/MedicCab/nouvell_facture.png',
+            alt: 'Secretary'
+          },
+            {
+            full: 'assets/projets/MedicCab/enregistre_depense.png',
+            alt: 'Secretary'
+          },
+          {
+            full: 'assets/projets/MedicCab/modification_comte_secretaire.png',
+            alt: 'Secretary'
+          },
+        ]
+      }
 
 ]
