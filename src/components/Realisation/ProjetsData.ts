@@ -1,12 +1,28 @@
 
 
 export const projetNames = [
+      {
+      name: "hassanBarber",
+      picture: '/assets/projets/hassan-barber.png',
+      techno: [
+        { name: "Next.js", url: "https://nextjs.org/docs" },
+        { name: "TypeScript", url: "https://www.typescriptlang.org/docs/" },
+        { name: "Tailwind CSS", url: "https://tailwindcss.com/plus" },
+      
+       
+      ],
+      description:'Site vitrine pour salon de coiffure avec design moderne, navigation fluide et interface responsive',
+      buttons:[{type:'web',link:'https://hasssanbarber.netlify.app/'},{type:'code',link:'https://github.com/cheick18/hassanBarberApp.git'}],
+      category:'site web'
+   
+    },
+    /*
     {
       name: "Garden Waste Booking",
       picture: '/assets/projets/select_skip.png',
       techno: [
-        { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
-        { name: "Tailwind CSS", url: "https://mui.com/getting-started/installation/" },
+        { name: "React.js", url: "https://reactjs.org/docs/getting-started.html" },
+        { name: "Tailwind CSS", url: "https://tailwindcss.com/plus" },
         { name: "Animate On Scroll", url: "https://michalsnik.github.io/aos/" },
        
       ],
@@ -15,6 +31,7 @@ export const projetNames = [
       category:'site web'
    
     },
+    */
     {
       name: "Recipe API",
       picture: '/assets/projets/api.jpg',
@@ -33,10 +50,10 @@ export const projetNames = [
       name: "Wague Portfolio",
       picture: '/assets/projets/porfolioHome.jpg',
       techno: [
-        { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
+        { name: "React.js", url: "https://reactjs.org/docs/getting-started.html" },
         { name: "LightGallery", url: "https://www.lightgalleryjs.com/" },
-        { name: "TypeScript", url: "https://expressjs.com/en/starter/installing.html" },
-        { name: "Tailwind CSS", url: "https://mui.com/getting-started/installation/" }
+        { name: "TypeScript", url: "https://www.typescriptlang.org/docs/" },
+        { name: "Tailwind CSS", url: "https://tailwindcss.com/plus" }
       ],
       description:'Portfolio pour illustrer mes compétences et mon parcours professionnel',
       buttons:[{type:'code',link:'https://github.com/cheick18/Portfolio.git'}],
@@ -49,7 +66,7 @@ export const projetNames = [
       name: "Faminda Site Web",
       picture: '/assets/projets/famindaHeader2.jpg',
       techno: [
-        { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
+        { name: "React.js", url: "https://reactjs.org/docs/getting-started.html" },
         { name: "Node.js", url: "https://nodejs.org/docs/latest/api/" },
         { name: "Express", url: "https://expressjs.com/en/starter/installing.html" },
     
@@ -95,7 +112,7 @@ export const projetNames = [
       name: "FoodArea",
       picture: '/assets/projets/food.jpg',
       techno: [
-        { name: "React", url: "https://reactjs.org/docs/getting-started.html" },
+        { name: "React.js", url: "https://reactjs.org/docs/getting-started.html" },
         { name: "Material UI", url: "https://mui.com/getting-started/installation/" }
       ],
          description:"Site web vitrine permettant aux utilisateurs d'explorer une multitude de recettes",
