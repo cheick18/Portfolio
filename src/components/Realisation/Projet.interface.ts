@@ -13,5 +13,6 @@ export default interface projetProps{
     techno:technology[];
     description:string;
     buttons:ButtonProps[];
+    category:string;
 
 }

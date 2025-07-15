@@ -43,7 +43,7 @@ export const projetNames = [
       ],
       description:'Plateforme de partage de recettes avec gestion des utilisateurs et du contenu',
       buttons:[{type:'code',link:'https://github.com/cheick18/FoodArea---Api.git'}],
-      category:'api'
+      category:'app web'
    
     },
     {

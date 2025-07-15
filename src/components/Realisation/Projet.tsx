@@ -1,7 +1,8 @@
 
  import { Link } from 'react-router-dom';
 import projetProps from './Projet.interface';
-export default function Projet({name,picture,techno,description,buttons}:projetProps) {
+export default function Projet({name,picture,techno,description,buttons,category}:projetProps) {
+  console.log(category)
   const showButton=(type:string,link:string)=>{
     if(type=='web')
       return(
@@ -34,7 +35,7 @@ Voir le code
 
   }
     return (
-      <div className="max-w-sm rounded overflow-hidden shadow-lg sm:hover:-translate-y-2 h-auto">
+      <div className="max-w-[394px]  rounded overflow-hidden shadow-lg sm:hover:-translate-y-2 h-auto">
         <img className="w-full h-60 object-contain transition duration-300 ease-in-out sm:hover:scale-110" src={picture} alt="Sunset in the mountains" />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 hover:text-gray-700 leading-0">{name}</div>
