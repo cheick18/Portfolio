@@ -61,7 +61,7 @@ J'aime résoudre des problèmes, construire des interfaces modernes, et collabor
      
       <Space />
         <div className="container-fluid">
-        <h4 className="text-2xl text-center  sm:text-3xl sm:text-start ">Mes expériecnes profetionnelles</h4>
+        <h4 className="text-2xl text-center  sm:text-3xl sm:text-start ">Mes expériences professionnelles</h4>
         <div className="experienceitem pt-8">
           {
                experiences.map((experience,index)=>(
