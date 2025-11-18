@@ -1,6 +1,21 @@
 
 
 export const projetNames = [
+   {
+      name: "CheiTeck",
+      picture: '/assets/projets/agenceCheiteck.png',
+      techno: [
+        { name: "Next.js", url: "https://nextjs.org/docs" },
+        { name: "TypeScript", url: "https://www.typescriptlang.org/docs/" },
+        { name: "Tailwind CSS", url: "https://tailwindcss.com/plus" },
+      
+       
+      ],
+      description:'Site vitrine pour agence web avec une navigation fluide et interface responsive',
+      buttons:[{type:'web',link:'https://chei-teck-iiwg.vercel.app'}],
+      category:'site web'
+   
+    },
       {
       name: "hassanBarber",
       picture: '/assets/projets/hassan-barber.png',
