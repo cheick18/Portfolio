@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 
 export default function Hero() {
+  /*
   const telechargerCV = () => {
    
     const link = document.createElement('a');
@@ -9,6 +10,8 @@ export default function Hero() {
     link.download= 'Wague_CV_FullStack_Developer.pdf'; 
     link.click();
   };
+
+  */
   return (
     <header className="container-fluid" >
       <div className="grid md:grid-cols-2 sm:grid-cols-1 pt-8">
