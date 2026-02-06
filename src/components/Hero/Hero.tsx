@@ -20,7 +20,7 @@ export default function Hero() {
           <div className="mt-10 grid grid-cols-3 animate__animated animate__bounceIn animate__delay-1s ">
             <div className="flex items-center gap-3 pl-3 col-span-3 sm:col-span-2">
 
-              <button onClick={telechargerCV} className=" bg-[#37538C] border border-white hover:bg-white text-white  hover:text-gray-700 font-bold py-2  px-4 rounded-xl inline-flex items-center">
+              <button  className=" bg-[#37538C] border border-white hover:bg-white text-white  hover:text-gray-700 font-bold py-2  px-4 rounded-xl inline-flex items-center">
                 <svg className=" w-4 h-4 mr-2 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" fill="currentColor" /></svg>
                 Download CV
               </button>
